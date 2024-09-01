@@ -54,7 +54,7 @@ class QualityLinks {
 
       return videoList;
     } catch (error) {
-      log('=====> REQUEST ERROR: $error');
+      print('=====> REQUEST ERROR: $error');
       return null;
     }
   }
