@@ -85,6 +85,7 @@ class _VimeoPlayerState extends State<VimeoPlayer> {
 
     //Initializing video controllers when receiving data from Vimeo
     _quality.getQualitiesSync().then((value) {
+      print(value.toString());
       final qualityValue = value[value.lastKey()];
 
       // Create resolutions map
